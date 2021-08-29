@@ -9,6 +9,8 @@
 <body>
     <h1>Add a Todo item:</h1>
     <form method="Post" action="add">
+        <!--csrk_token is a security measure used by django to ensure that the data is coming from this site-->
+        {% csrf_token %}
         <div>
             <p>
                 <label for="id_name">Name</label>
