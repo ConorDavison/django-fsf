@@ -8,11 +8,4 @@ class TestDjango(TestCase):
     def test_this_thing_works(self):
         self.assertEqual(11, 11)
 
-    def test_this_thing_works1(self):
-        self.assertEqual(11, 11)
 
-    def test_this_thing_works2(self):
-        self.assertEqual(11, 11)
-
-    def test_this_thing_works3(self):
-        self.assertEqual(11, 11)
